@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="schema">
+		<fieldset
+			name="schema"
+			label="PLG_SYSTEM_SCHEMA_FIELD_SCHEMA_LABEL"
+		>
+			<field
+				name="FAQPage"
+				type="subform"
+				showon="schemaType:FAQPage"
+			>
+		<form>
+			<field
+				name="@type"
+				type="hidden"
+				default="FAQPage"
+			/>	
+				<field
+						name="mainEntity"
+						type="subform"
+						label="PLG_SCHEMAORG_FAQPAGE_QUESTIONS"
+						multiple="true"
+						min="1"
+					>
+						<form>
+							<field
+								name="@type"
+								type="hidden"
+								default="Question"
+							/>
+								<field
+									name="name"
+									type="text"
+									filter="string"
+									label="PLG_SCHEMAORG_FAQPAGE_QUESTION"
+								/>
+								<field
+									name="acceptedAnswer"
+									type="text"
+									filter="string"
+									label="PLG_SCHEMAORG_FAQPAGE_ANSWER"
+								/>
+						</form>
+					</field>
+
+			</form>
+			</field>
+
+
+		</fieldset>
+	</fields>
+</form>
