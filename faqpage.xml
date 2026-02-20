@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>info@internet-marketer.ch</authorEmail>
 	<authorUrl>www.internet-marketer.ch</authorUrl>
-	<version>5.0.0</version>
+	<version>5.0.1</version>
 	<description>PLG_SCHEMAORG_FAQPAGE_XML_DESCRIPTION</description>
 	<namespace path="src">Joomla\Plugin\Schemaorg\Faqpage</namespace>
 	<files>
