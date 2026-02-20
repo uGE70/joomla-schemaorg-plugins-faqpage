@@ -13,6 +13,7 @@
 	<files>
 		<folder plugin="faqpage">services</folder>
 		<folder>src</folder>
+		<folder>forms</folder>
 	</files>
 	<languages>
 		<language tag="en-GB">language/en-GB/plg_schemaorg_faqpage.ini</language>
